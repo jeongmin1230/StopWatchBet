@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">StopWatchBet</string>
+    <string name="select_players_num">본 게임의 인원 수 제한은 10명 입니다.\n참가자 수를 클릭 해 주세요.</string>
+    <string name="players">인원 :</string>
+    <string name="start">게임 시작</string>
+    <string name="start_timer">시작</string>
+    <string name="stop_timer">멈춤</string>
+    <string name="player">플레이어</string>
+    <string name="rank">위</string>
+    <string name="result">[결과]</string>
+    <string name="retry">다시 게임하기</string>
+
+    <string name="nav_1">start</string>
+    <string name="nav_2">game</string>
 </resources>
