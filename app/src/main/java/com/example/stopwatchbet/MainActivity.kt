@@ -86,12 +86,13 @@ fun Whole() {
         composable(context.getString(R.string.nav_1)){
             Column(
                 verticalArrangement = Arrangement.Center,
+                modifier = Modifier.background(Color.White),
                 horizontalAlignment = Alignment.CenterHorizontally) {
                 StartScreen(players, context, navController)
             }
         }
         composable(context.getString(R.string.nav_2)) {
-            Column {
+            Column(modifier = Modifier.background(Color.White),) {
                 GameScreen(players, navController)
             }
         }
